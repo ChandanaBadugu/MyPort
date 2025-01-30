@@ -1,0 +1,52 @@
+/* Import the Manrope font */
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.port-container {
+  padding: 20px;
+}
+
+.port-nav {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end; /* Align the nav items to the right */
+  margin-bottom: 30px; /* Increased space after the nav bar */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: #333; /* Dark text color */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Heading Styles */
+.heading {
+  font-size: 50px;
+  font-weight: 500; /* Medium weight */
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Increased space below heading */
+  padding-left: 40px;
+}
+
+/* Paragraph Styles */
+.description {
+  font-size: 80px;
+  font-weight: 600; /* Bold weight */
+  color: #666;
+  margin-top: 0; /* No margin above description */
+  line-height: 1.5;
+  padding-left: 40px;
+}
